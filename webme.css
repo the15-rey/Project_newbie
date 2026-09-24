@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #54266f;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #54266f;
+}
+
+.container {
+    width: 95%;
+    margin: 15px auto;
+    background-color: #eee4d2;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+    font-size: 42px;
+    font-weight: bold;
+    color: #39204f;
+}
+
+nav {
+    height: 44px;
+    background-color: #54266f;
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    background-color: #54266f;
+}
+
+nav ul li a {
+    display: block;
+    padding: 11px 22px;
+    color: #f1e5d2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #703393;
+}
+
+.hero {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.hero img {
+    width: 100%;
+    height: 605px;
+    object-fit: cover;
+    display: block;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 25px;
+}
+
+.main h1 {
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    color: black;
+}
+
+main h2 {
+    margin: 0;
+    padding: 10px;
+    background-color: #6e3c91;
+    color: #f1e5d2;
+    text-align: center;
+    font-size: 24px;
+}
+
+main p {
+    color: black;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: justify;
+    align-content: center;
+}
+
+.main li {
+    list-style: none;
+    text-align: center;
+    color: black;
+}
+
+.left li {
+    color: black;
+    list-style: none;
+}
+
+.left {
+    border: 1px solid #d5c3ac;
+}
+
+.main {
+    padding: 0;
+}
+
+.right {
+    color: black;
+    border: 1px solid #d5c3ac;
+}
+
+.right li {
+    list-style: none;
+}
+
+.right p {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 25px;
+    height: 40px;
+    background-color: #54266f;
+    color: #f1e5d2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.single-content {
+    display: block;
+    min-height: 400px;
+}
+
+.single-content .main {
+    width: 70%;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+form button {
+    padding: 10px 25px;
+    background-color: #6e3c91;
+    color: #f1e5d2;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #8b5aaa;
+}
+
+main.single-content {
+    display: block;
+    width: 100%;
+}
+
+main.single-content > section.main {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
